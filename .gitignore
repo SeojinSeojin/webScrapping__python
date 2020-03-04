@@ -1,2 +1,7 @@
 *.jpg
 docs.python.org/
+*.json
+*.xml
+*.csv
+*.xlsx
+*.sqlite
