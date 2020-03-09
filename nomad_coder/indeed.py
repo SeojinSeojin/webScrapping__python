@@ -32,3 +32,10 @@ def extract_indeed_jobs(last_page) :
     return jobs
 
 # 직업 이름, 지역만 추출 가능하다. . indeed 사이트가 바뀌었나보다 ㅜㅜ
+
+
+def main():
+    last_indeed_page = extract_indeed_pages()
+    print(extract_indeed_jobs(last_indeed_page))
+
+main()
